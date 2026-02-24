@@ -151,12 +151,3 @@ poll-platform/
 | Audit: original→released→new | ✅ |
 | No hardcoded poll data | ✅ DB-driven |
 | No frontend-only restriction | ✅ Server-side |
-
----
-
-## ⚠️ Not Allowed (Confirmed Avoided)
-- ❌ AI tools for code generation — manual implementation
-- ❌ Frontend-only vote restriction — all enforced server-side
-- ❌ Hardcoded poll or vote logic — all from database
-- ❌ Page reload for voting, results, or IP release — all AJAX
-- ❌ Deleting vote data without history — uses `is_active` flag
